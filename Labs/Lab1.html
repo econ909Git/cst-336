@@ -5,39 +5,51 @@
     <head>
         <meta charset="uft-8" />
         <title> John Economides: Personal Website</title>
-        
+    <style>
+        .title {
+            width:100%;
+            border:1px solid blue;
+        }
+        .centered {
+            width:100px;
+            margin:auto;
+        }
+    </style>
         
         
     </head>
     
     <body>
-        <header>
-            <h1>John Economides</h1>
-        </header>
+        <div class="container">
+        <!--Title-->
+        <div class="title">
+            <span class="centered">John Economides</span>
+        </div>
         <nav>
             <hr width="50%" />
             <a href="index.html">Home<a/>
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
         </nav>
+        <!--Body-->
+        <div class="body clearfix">
+          <img src="skater1.jpg" alt="Picture of John Economides" />
+          <div>Hello!<br />
+                <p> Thank you for visiting my portfolio website</p>
+                <p>I am a student at CSUMB wanted to become a Software Engineer</p>
+                <p>Feel free to contact me</p></div>
+            
+        </div>
         
-        <nav>
+        
             
         <br /><br />
         
         <main>
             
-            <figure>
-                <img src="skater1.jpg" alt="Picture of John Economides" />
-            </figure>
+           
             
-            <div>
-                Hello!<br />
-                <p> Thank you for visiting my portfolio website</p>
-                <p>I am a student at CSUMB wanted to become a Software Engineer</p>
-                <p>Feel free to contact me</p>
-                
-            </div>
+            
         </main>    
-        </nav>
+       
     </body>
