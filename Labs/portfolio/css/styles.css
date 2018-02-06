@@ -1,0 +1,78 @@
+body {
+    background-color:black;   
+    color:white; 
+}
+
+header, main, nav, footer {
+    text-align:center;
+}
+h1 {
+    font-family:'Rammetto+One', cursive;
+    font-size:3em;
+    margin-bottom:0px;
+}
+
+nav a { /*links with navigator*/
+    padding:15px;
+    padding-bottom:4px;
+    font-size:1.8em;
+    text-decoration: none; /*removes the underline*/
+    color:white;  /*by default links are blue*/
+}
+
+nav a:hover {
+    border-bottom:2px orange solid;
+    font-size:2em;
+    transition: .9s;
+}
+
+figure, div {
+    float:left;
+}
+
+#me, #welcome_text {
+    float:left;
+    font-size:1.3em;
+    text-align:left;
+}
+
+footer {
+    clear:left;
+    font-size:0.9em;
+    color: yellow;
+}
+
+footer #csumb {
+    float:none;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right:10px;
+    font-size:1.3em;
+}
+td strong {
+    color: orange;
+}
+#table-header{
+    background-color: #351a00;
+}
+.table-row{
+     background-color: #753900;
+}
+ul {
+    text-align:left;
+    padding-left:200px;
+    font-size:1.1em;
+}
+.hobby{
+    color:yellow;
+}
+
+#contact {
+    padding-left:400px;
+    float:none;
+}
