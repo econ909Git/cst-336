@@ -1,5 +1,5 @@
 body {
-    background-color:black;   
+    background-color:DarkBlue;   
     color:white; 
 }
 
@@ -26,19 +26,24 @@ nav a:hover {
     transition: .9s;
 }
 
-figure, div {
+figure #highway{
     float:left;
 }
 
-#me1, #welcome_text {
-    float:left;
+#code, #welcome_text {
+    float:none;
     font-size:1.0em;
-    text-align:left;
+    text-align:center;
+    padding-left:50px;
 }
 #quote{
-   float:none;
+    float:none;
 }
 
+#highway
+{
+    padding-bottom:10px;
+}
 footer {
     clear:left;
     font-size:0.9em;
