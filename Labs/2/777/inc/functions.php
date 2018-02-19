@@ -69,3 +69,4 @@ function displaySymbol($randomValue, $pos){
 
 ?>
     </body>
+</html>
