@@ -27,9 +27,14 @@ nav a:hover {
 }
 
 figure #highway{
-    float:left;
+    float:none;
 }
 
+figure #bike{
+    float:none;
+}
+
+}
 #code, #welcome_text {
     float:none;
     font-size:1.0em;
@@ -77,7 +82,8 @@ ul {
     font-size:1.1em;
 }
 .hobby{
-    color:yellow;
+    color:orange;
+    font-size:1.2em;
 }
 
 #contact {
