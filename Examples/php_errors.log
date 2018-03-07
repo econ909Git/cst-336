@@ -1,0 +1,43 @@
+[05-Mar-2018 17:01:42 UTC] PHP Fatal error:  Call to undefined function getDataBaseConnectioni() in /home/ubuntu/workspace/Examples/GroupProject/testing.php on line 5
+[05-Mar-2018 17:01:42 UTC] PHP Stack trace:
+[05-Mar-2018 17:01:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/Examples/GroupProject/testing.php:0
+[05-Mar-2018 17:02:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'bank'' in /home/ubuntu/workspace/Examples/GroupProject/DBConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/Examples/GroupProject/DBConnection.php(9): PDO->__construct('mysql:host=loca...', 'econ909', '')
+#1 /home/ubuntu/workspace/Examples/GroupProject/testing.php(5): getDataBaseConnection('bank')
+#2 {main}
+  thrown in /home/ubuntu/workspace/Examples/GroupProject/DBConnection.php on line 9
+[05-Mar-2018 17:16:40 UTC] PHP Catchable fatal error:  Object of class PDO could not be converted to string in /home/ubuntu/workspace/Examples/GroupProject/DBConnection.php on line 11
+[05-Mar-2018 17:16:40 UTC] PHP Stack trace:
+[05-Mar-2018 17:16:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/Examples/GroupProject/testing.php:0
+[05-Mar-2018 17:16:40 UTC] PHP   2. getDataBaseConnection() /home/ubuntu/workspace/Examples/GroupProject/testing.php:5
+[05-Mar-2018 17:19:43 UTC] PHP Catchable fatal error:  Object of class PDO could not be converted to string in /home/ubuntu/workspace/Examples/GroupProject/DBConnection.php on line 11
+[05-Mar-2018 17:19:43 UTC] PHP Stack trace:
+[05-Mar-2018 17:19:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Examples/GroupProject/testing.php:0
+[05-Mar-2018 17:19:43 UTC] PHP   2. getDataBaseConnection() /home/ubuntu/workspace/Examples/GroupProject/testing.php:5
+[05-Mar-2018 17:21:20 UTC] PHP Catchable fatal error:  Object of class PDO could not be converted to string in /home/ubuntu/workspace/Examples/GroupProject/DBConnection.php on line 11
+[05-Mar-2018 17:21:20 UTC] PHP Stack trace:
+[05-Mar-2018 17:21:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/Examples/GroupProject/testing.php:0
+[05-Mar-2018 17:21:20 UTC] PHP   2. getDataBaseConnection() /home/ubuntu/workspace/Examples/GroupProject/testing.php:5
+[05-Mar-2018 17:21:38 UTC] PHP Catchable fatal error:  Object of class PDO could not be converted to string in /home/ubuntu/workspace/Examples/GroupProject/DBConnection.php on line 11
+[05-Mar-2018 17:21:38 UTC] PHP Stack trace:
+[05-Mar-2018 17:21:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/Examples/GroupProject/testing.php:0
+[05-Mar-2018 17:21:38 UTC] PHP   2. getDataBaseConnection() /home/ubuntu/workspace/Examples/GroupProject/testing.php:5
+[05-Mar-2018 17:31:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'yourUserName'@'localhost' (using password: NO)' in /home/ubuntu/workspace/Examples/GroupProject/testing.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Examples/GroupProject/testing.php(11): PDO->__construct('mysql:host=loca...', 'yourUserName', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/Examples/GroupProject/testing.php on line 11
+[05-Mar-2018 17:32:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'your_db_name'' in /home/ubuntu/workspace/Examples/GroupProject/testing.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/Examples/GroupProject/testing.php(11): PDO->__construct('mysql:host=loca...', 'econ909', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/Examples/GroupProject/testing.php on line 11
+[05-Mar-2018 17:36:35 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/ubuntu/workspace/Examples/GroupProject/testing.php on line 20
+[05-Mar-2018 17:36:35 UTC] PHP Stack trace:
+[05-Mar-2018 17:36:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/Examples/GroupProject/testing.php:0
+[05-Mar-2018 17:36:35 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/Examples/GroupProject/testing.php:20
+[05-Mar-2018 17:38:52 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/ubuntu/workspace/Examples/GroupProject/testing.php on line 20
+[05-Mar-2018 17:38:52 UTC] PHP Stack trace:
+[05-Mar-2018 17:38:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/Examples/GroupProject/testing.php:0
+[05-Mar-2018 17:38:52 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/Examples/GroupProject/testing.php:20

@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title> </title>
     </head>
     <body>
-        <a href="/3/SilverJack"> Lab 3</a>
+        <a href="/2/777"> Lab 2</a>
 
     </body>
 </html>
